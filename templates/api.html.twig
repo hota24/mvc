@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+  Me
+{% endblock %}
+
+{% block body %}
+  <h2>API</h2>
+  <br />
+  <div class="container">
+    <div class="row border-bottom">
+      <div class="col-3">
+        <a href="{{path('api-quotes')}}">/api/quotes</a>
+      </div>
+      <div class="col-9">
+        <p>Hämta en slumäsig citat</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

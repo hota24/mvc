@@ -1,0 +1,46 @@
+@import "color.scss";
+
+.section-full {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  max-width: 1000px;
+  padding: 0;
+  margin: 0;
+}
+
+.section-content {
+  padding: 1em;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  padding: 0 1em;
+
+  & li {
+    padding: 0.5em;
+
+    & a:hover {
+      color: $primary;
+      background-color: none;
+      text-shadow: 0px 0px 1px $primary;
+    }
+
+    & a.dropdown-item:hover {
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
+
+  & a.active {
+    font-weight: bold;
+    color: $primary !important;
+  }
+}

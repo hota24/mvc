@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+@import "layout.scss";
+@import "color.scss";
+
+body {
+  background-color: $bgColor;
+  padding: 0;
+  margin: 0;
+}

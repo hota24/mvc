@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+  Me
+{% endblock %}
+
+{% block body %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <img width="200px" src="{{ asset('img/me.jpg') }}" class="figure-img img-fluid rounded img-thumbnail" alt="Minh" />
+      </div>
+      <div class="col-9">
+        <p>Hej! Mitt namn är Minh Ta</p>
+        <p>Sedan barndomen har jag alltid en stark instresse för datorer. Jag har jobbat med elektronik hårdvaror och grafikdesign. Jag valde att läsa detta programmet med målet att kunna bemästra modern webbutveckling.</p>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
