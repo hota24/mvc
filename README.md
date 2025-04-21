@@ -8,11 +8,13 @@ Instruktion finns här: [Installing & Setting up the Symfony Framework](https://
 
 
 
+
 **Instruktion:**
 
 Klona repot:
 
     git clone https://github.com/hota24/mvc.git
+
 
 Gå till appens rootmapp. Förberedd server:
     composer install
@@ -28,3 +30,4 @@ Webbappen använder Encore webpack med support för SASS och BootstrapCSS. Bygg 
 eller låta filerna bevakas för ändringar (endast dev):
 
     npm run watch
+
